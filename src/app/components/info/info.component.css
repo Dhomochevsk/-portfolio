@@ -1,0 +1,42 @@
+.info-container {
+  color: #494d46;
+  padding: 20px;
+  line-height: 1.6;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.5rem; /* ← Este valor controla el tamaño general del texto */
+}
+
+
+
+.info-container h1 {
+  font-size: 3rem;
+  color: #303030;
+  /* border-bottom: 2px solid #494d46; */ /* ← elimínala o coméntala */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+
+.info-container h2 {
+  font-size: 2.1rem;
+  color: #303030; /* Color para subtítulos */
+  margin-top: 30px;
+}
+
+.info-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.info-container ul li {
+  margin: 8px 0;
+}
+
+.info-container a {
+  color: #494d46; /* Puedes usar este color para enlaces */
+  text-decoration: none;
+}
+
+.info-container a:hover {
+  text-decoration: underline;
+}

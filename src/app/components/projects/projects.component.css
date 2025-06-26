@@ -1,0 +1,29 @@
+.experience-item-box {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 25px;
+ background-color: rgba(245, 245, 245, 0.6); /* mismo color que #f5f5f5 con 60% de opacidad */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  align-items: flex-start;
+}
+
+.experience-item-box img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.experience-item-box h3 {
+  margin: 0 0 8px;
+  font-size: 1.8rem;
+  color: #303030;
+}
+
+.experience-item-box p {
+  margin: 5px 0;
+  color: #686e64;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,42 @@
+.info-container {
+  color: #494d46;
+  line-height: 1.6;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.5rem; /* ← Este valor controla el tamaño general del texto */
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columnas */
+  gap: 30px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.skill-item {
+  text-align: center;
+}
+
+.skill-item a {
+  text-decoration: none; /* Quita la línea debajo del texto */
+  color: inherit; /* Mantiene el color del texto original */
+}
+
+
+.skill-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.skill-item img:hover {
+  transform: scale(1.1);
+}
+
+.skill-item span {
+  display: block;
+  margin-top: 8px;
+  font-size: 4.0 rem;
+  color: #494d46;
+}
